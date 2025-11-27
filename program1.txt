@@ -1,0 +1,9 @@
+1. git config --global user.name "4GW24CI048GIT"
+2. git config --global user. email "snehaganganadumane@gmail.com"
+3.mkdir lab_manual
+4. cd lab_manual
+5. git init
+6.touch program1.txt
+7.git add program1.txt
+8.git add .
+9.git commit -m "initial commit -adding a new file" 
