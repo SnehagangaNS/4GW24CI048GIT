@@ -1,0 +1,12 @@
+cd 4GW24CI048GIT
+git status
+git add .
+git commit -m "Initial commit"
+git branch
+git branch feature-branch
+git checkout feature-branch
+git checkout master
+git remote add origin https://github.com/SnehagangaNS/4GW24CI048GIT.git
+git push -u origin feature-branch
+git push -u origin master
+git merge feature-branch
