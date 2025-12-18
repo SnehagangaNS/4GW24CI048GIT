@@ -1,0 +1,5 @@
+git branch
+git status
+git add prg.txt
+git commit -m "updated commit"
+git push origin master
