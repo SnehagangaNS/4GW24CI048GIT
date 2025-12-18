@@ -1,0 +1,7 @@
+git config --global user.name "swasthi"
+git config --global user.email "swasthi@example.com"
+cd /e/4Gw24CI048GIT
+git status
+git stash -u
+git switch main
+git stash pop
