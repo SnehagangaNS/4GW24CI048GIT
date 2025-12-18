@@ -1,12 +1,44 @@
+# 1. Configure global Git username
+git config --global user.name "SnehagangaNS"
+
+# 2. Configure global Git email
+git config --global user.email "snehaganganadumane@gmail.com"
+
+# 3. Verify Git configuration
+git config --global --list
+
+# 4. Navigate to the repository folder
 cd 4GW24CI048GIT
+
+# 5. Initialize Git repository
+git init
+
+# 6. Check repository status
 git status
+
+# 7. Add files to the staging area
 git add .
+
+# 8. Create the initial commit
 git commit -m "Initial commit"
+
+# 9. Check existing branches
 git branch
+
+# 10. Create a new branch named feature-branch
 git branch feature-branch
+
+# 11. Switch to the feature-branch
 git checkout feature-branch
+
+# 12. Switch back to the master branch
 git checkout master
+
+# 13. Add GitHub repository as remote origin
 git remote add origin https://github.com/SnehagangaNS/4GW24CI048GIT.git
-git push -u origin feature-branch
+
+# 14. Push master branch to GitHub
 git push -u origin master
-git merge feature-branch
+
+# 15. Push feature-branch to GitHub
+git push -u origin feature-branch
